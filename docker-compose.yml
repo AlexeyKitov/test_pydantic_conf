@@ -1,0 +1,7 @@
+version: '3'
+services:
+  test:
+    build: ./app
+    image: app
+    env_file:
+      - .env
